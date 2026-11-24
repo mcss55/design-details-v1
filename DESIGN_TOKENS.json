@@ -1,0 +1,2341 @@
+{
+  "schemaVersion": "1.0.0",
+  "locale": "en",
+  "colorSpace": "sRGB",
+  "sourceInventory": {
+    "P1": "Petal Studio Booking desktop",
+    "P2": "Petal Studio Booking mobile",
+    "P3": "Petal Booking Confirmed original wordmark",
+    "P4": "Petal Booking Confirmed br10 wordmark revision",
+    "B1": "BR10 Business Calendar including selected prototype states"
+  },
+  "usage": "Use measured values in the component role and width named by their key. Inferred entries guide new screens. Role mappings are contextual. A null or omitted property is unspecified.",
+  "evidenceTypes": {
+    "computed-css-or-dom": "Read as a computed property, SVG attribute, DOM geometry or repeatable layout measurement. Coordinates and boxes are CSS px before device scaling unless noted.",
+    "source-declaration": "Read from preview CSS, markup or theme configuration. The value can differ from a transformed or composited measurement.",
+    "visual-estimate": "Estimated from visible structure or illustration bounds. Use as an approximate design starting point.",
+    "exact-raster-count": "Counted exact sRGB pixel matches in the full capture. Alpha blends, shadows, antialiasing and artwork can add nearby colors.",
+    "inferred-for-reuse": "Proposed transfer or production guidance inferred from the references. Keep it conditional on the screen role."
+  },
+  "tokens": {
+    "colors": {
+      "canvas": {
+        "value": "#F1EEF6",
+        "unit": "sRGB hex",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "B1"
+        ]
+      },
+      "surface": {
+        "value": "#FFFFFF",
+        "unit": "sRGB hex",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "B1"
+        ]
+      },
+      "ink": {
+        "value": "#151515",
+        "unit": "sRGB hex",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "B1"
+        ]
+      },
+      "lilac": {
+        "surface": {
+          "value": "#E8DCF8",
+          "unit": "sRGB hex",
+          "evidence": "computed-css-or-dom",
+          "screens": [
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "B1"
+          ]
+        },
+        "accent": {
+          "value": "#A46CE6",
+          "unit": "sRGB hex",
+          "evidence": "computed-css-or-dom",
+          "screens": [
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "B1"
+          ]
+        }
+      },
+      "peach": {
+        "surface": {
+          "value": "#FBE2CA",
+          "unit": "sRGB hex",
+          "evidence": "computed-css-or-dom",
+          "screens": [
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "B1"
+          ]
+        },
+        "accent": {
+          "value": "#EE9757",
+          "unit": "sRGB hex",
+          "evidence": "computed-css-or-dom",
+          "screens": [
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "B1"
+          ]
+        }
+      },
+      "sky": {
+        "surface": {
+          "value": "#CDEFF6",
+          "unit": "sRGB hex",
+          "evidence": "computed-css-or-dom",
+          "screens": [
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "B1"
+          ]
+        },
+        "accent": {
+          "value": "#3FBAD6",
+          "unit": "sRGB hex",
+          "evidence": "computed-css-or-dom",
+          "screens": [
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "B1"
+          ]
+        }
+      },
+      "lime": {
+        "surface": {
+          "value": "#DFF3C6",
+          "unit": "sRGB hex",
+          "evidence": "computed-css-or-dom",
+          "screens": [
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "B1"
+          ]
+        },
+        "accent": {
+          "value": "#79B443",
+          "unit": "sRGB hex",
+          "evidence": "computed-css-or-dom",
+          "screens": [
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "B1"
+          ]
+        }
+      },
+      "artworkMidpoint": {
+        "value": "#EFE4F8",
+        "unit": "sRGB hex",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2"
+        ]
+      },
+      "contourPrimary": {
+        "value": "#DED2F1",
+        "unit": "sRGB hex",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "B1"
+        ]
+      },
+      "contourSecondary": {
+        "value": "#E3D9F3",
+        "unit": "sRGB hex",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "B1"
+        ]
+      },
+      "contourTertiary": {
+        "value": "#E6DDF4",
+        "unit": "sRGB hex",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2",
+          "P3",
+          "P4"
+        ]
+      },
+      "calendarInactive": {
+        "value": "#F6F4F9",
+        "unit": "sRGB hex",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ],
+        "note": "Base beneath off-hours hatching."
+      },
+      "calendarCancelled": {
+        "value": "#F1EFF5",
+        "unit": "sRGB hex",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ],
+        "note": "Neutral fill for cancelled events and their legend."
+      },
+      "calendarAvatarRingTrack": {
+        "value": "#EEEAF3",
+        "unit": "sRGB hex",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "heroArtworkGradient": {
+        "value": {
+          "direction": "to right bottom",
+          "stops": [
+            "#E8DCF8",
+            "#EFE4F8",
+            "#FBE2CA"
+          ]
+        },
+        "unit": "CSS gradient",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2"
+        ]
+      },
+      "availabilityOpenTrack": {
+        "value": {
+          "color": "#FFFFFF",
+          "alpha": 0.7
+        },
+        "unit": "sRGB color with alpha",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2"
+        ]
+      },
+      "availabilityClosedTrack": {
+        "value": {
+          "color": "#FFFFFF",
+          "alpha": 0.35
+        },
+        "unit": "sRGB color with alpha",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2"
+        ]
+      },
+      "availabilityFill": {
+        "value": {
+          "color": "#3FBAD6",
+          "alpha": 0.8
+        },
+        "unit": "sRGB color with alpha",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2"
+        ]
+      },
+      "liveTimeMarker": {
+        "value": "#EE9757",
+        "unit": "sRGB hex",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      }
+    },
+    "typography": {
+      "fontFamily": {
+        "value": [
+          "Plus Jakarta Sans",
+          "ui-sans-serif",
+          "system-ui"
+        ],
+        "evidence": "source-declaration",
+        "screens": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "B1"
+        ],
+        "note": "Plus Jakarta Sans faces were also observed loaded in replay."
+      },
+      "availableWeights": {
+        "value": [
+          400,
+          500,
+          600,
+          700,
+          800
+        ],
+        "evidence": "source-declaration",
+        "screens": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "B1"
+        ]
+      },
+      "baseline": {
+        "value": {
+          "fontSize": 16,
+          "lineHeight": 24,
+          "fontWeight": 400
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "B1"
+        ]
+      },
+      "displayDesktop": {
+        "value": {
+          "fontSize": 46,
+          "lineHeight": 46,
+          "fontWeight": 800,
+          "letterSpacing": -1.61
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "displayMobile": {
+        "value": {
+          "fontSize": 32,
+          "lineHeight": 32,
+          "fontWeight": 800,
+          "letterSpacing": -1.12
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2"
+        ]
+      },
+      "displayConfirmation": {
+        "value": {
+          "fontSize": 30,
+          "lineHeight": 31.5,
+          "fontWeight": 800,
+          "letterSpacing": -1.05
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P3",
+          "P4"
+        ]
+      },
+      "displayOperations": {
+        "value": {
+          "fontSize": 24,
+          "lineHeight": 24,
+          "fontWeight": 800,
+          "letterSpacing": -0.72
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "stageDesktop": {
+        "value": {
+          "fontSize": 24,
+          "lineHeight": 32,
+          "fontWeight": 700,
+          "letterSpacing": -0.6
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "stageMobile": {
+        "value": {
+          "fontSize": 21,
+          "lineHeight": 31.5,
+          "fontWeight": 700,
+          "letterSpacing": -0.525
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2"
+        ]
+      },
+      "ticketHeadingDesktop": {
+        "value": {
+          "fontSize": 18,
+          "lineHeight": 28,
+          "fontWeight": 700,
+          "letterSpacing": -0.45
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "confirmationModuleTitle": {
+        "value": {
+          "fontSize": 16,
+          "lineHeight": 24,
+          "fontWeight": 700
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P3",
+          "P4"
+        ]
+      },
+      "calendarMonth": {
+        "value": {
+          "fontSize": 19,
+          "lineHeight": 28.5,
+          "fontWeight": 800,
+          "letterSpacing": -0.475
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "calendarSheetTitle": {
+        "value": {
+          "fontSize": 20,
+          "lineHeight": 30,
+          "fontWeight": 800,
+          "letterSpacing": -0.5
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "heroBodyDesktop": {
+        "value": {
+          "fontSize": 15,
+          "lineHeight": 24.375,
+          "fontWeight": 400
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "heroBodyMobile": {
+        "value": {
+          "fontSize": 13.5,
+          "lineHeight": 21.9375,
+          "fontWeight": 400
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2"
+        ]
+      },
+      "serviceTitleDesktop": {
+        "value": {
+          "fontSize": 15,
+          "lineHeight": 22.5,
+          "fontWeight": 600
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "serviceTitleMobile": {
+        "value": {
+          "fontSize": 14,
+          "lineHeight": 21,
+          "fontWeight": 600
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2"
+        ]
+      },
+      "serviceTitleReceipt": {
+        "value": {
+          "fontSize": 13.5,
+          "lineHeight": 20.25,
+          "fontWeight": 600
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P3",
+          "P4"
+        ]
+      },
+      "serviceDescriptionDesktop": {
+        "value": {
+          "fontSize": 12,
+          "lineHeight": 16,
+          "fontWeight": 400
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "serviceDescriptionMobile": {
+        "value": {
+          "fontSize": 11,
+          "lineHeight": 16.5,
+          "fontWeight": 400
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2",
+          "P3",
+          "P4"
+        ]
+      },
+      "confirmationFieldLabel": {
+        "value": {
+          "fontSize": 10,
+          "lineHeight": 15,
+          "fontWeight": 600,
+          "letterSpacing": 0.5,
+          "textTransform": "uppercase"
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P3",
+          "P4"
+        ]
+      },
+      "confirmationFieldValue": {
+        "value": {
+          "fontSize": 17,
+          "lineHeight": 21.25,
+          "fontWeight": 800
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P3",
+          "P4"
+        ]
+      },
+      "filterLabel": {
+        "value": {
+          "fontSize": 12,
+          "lineHeight": 18,
+          "fontWeight": 600
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "navTab": {
+        "value": {
+          "fontSize": 13,
+          "lineHeight": 19.5,
+          "fontWeight": 700
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "navSecondary": {
+        "value": {
+          "fontSize": 9.5,
+          "lineHeight": 14.25,
+          "fontWeight": 600
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "buttonPrimary": {
+        "value": {
+          "fontSize": 16,
+          "lineHeight": 24,
+          "fontWeight": 600
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P3",
+          "P4"
+        ]
+      },
+      "buttonSecondary": {
+        "value": {
+          "fontSize": 13,
+          "lineHeight": 19.5,
+          "fontWeight": 600
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P3",
+          "P4"
+        ]
+      },
+      "totalDesktop": {
+        "value": {
+          "fontSize": 34,
+          "lineHeight": 34,
+          "fontWeight": 800,
+          "letterSpacing": -0.85,
+          "fontVariantNumeric": "tabular-nums"
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "totalConfirmation": {
+        "value": {
+          "fontSize": 32,
+          "lineHeight": 32,
+          "fontWeight": 800,
+          "letterSpacing": -0.8,
+          "fontVariantNumeric": "tabular-nums"
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P3",
+          "P4"
+        ]
+      },
+      "totalDock": {
+        "value": {
+          "fontSize": 20,
+          "lineHeight": 25,
+          "fontWeight": 800,
+          "fontVariantNumeric": "tabular-nums"
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2"
+        ]
+      },
+      "countdownValue": {
+        "value": {
+          "fontSize": 28,
+          "lineHeight": 28,
+          "fontWeight": 800,
+          "letterSpacing": -0.7,
+          "fontVariantNumeric": "tabular-nums"
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P3",
+          "P4"
+        ]
+      },
+      "calendarTime": {
+        "value": {
+          "fontSize": 10,
+          "lineHeight": 11.5,
+          "fontWeight": 700,
+          "fontVariantNumeric": "tabular-nums"
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "calendarName": {
+        "value": {
+          "fontSize": 11.5,
+          "lineHeight": 13.8,
+          "fontWeight": 600
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "calendarService": {
+        "value": {
+          "fontSize": 10,
+          "lineHeight": 12,
+          "fontWeight": 400
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "calendarLoadBadge": {
+        "value": {
+          "fontSize": 9.5,
+          "lineHeight": 14.25,
+          "fontWeight": 700
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "calendarMonthSheetTitle": {
+        "value": {
+          "fontSize": 18,
+          "lineHeight": 27,
+          "fontWeight": 800
+        },
+        "unit": "CSS px for length fields",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "calendarCellTextScaleOptions": {
+        "value": [
+          0.9,
+          1,
+          1.15
+        ],
+        "unit": "multiplier",
+        "evidence": "source-declaration",
+        "screens": [
+          "B1"
+        ]
+      }
+    },
+    "layout": {
+      "desktopShellMax": {
+        "value": 1360,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "desktopWrapperPadding": {
+        "value": 24,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "desktopContentWidthAt1440": {
+        "value": 1312,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "desktopOuterGutterAt1440": {
+        "value": 64,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "desktopChooserWidthAt1440": {
+        "value": 908,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "desktopRailWidth": {
+        "value": 380,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "desktopRailGap": {
+        "value": 24,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "desktopRailStickyTop": {
+        "value": 24,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "desktopRailBreakpoint": {
+        "value": 1280,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "desktopHeroColumns": {
+        "value": [
+          1.1,
+          1
+        ],
+        "unit": "fr",
+        "evidence": "source-declaration",
+        "screens": [
+          "P1"
+        ]
+      },
+      "desktopScheduleColumns": {
+        "value": [
+          5,
+          7
+        ],
+        "unit": "fr",
+        "evidence": "source-declaration",
+        "screens": [
+          "P1"
+        ]
+      },
+      "mobileShellMax": {
+        "value": 480,
+        "unit": "CSS px",
+        "evidence": "source-declaration",
+        "screens": [
+          "P2",
+          "P3",
+          "P4",
+          "B1"
+        ]
+      },
+      "mobileContentGutter": {
+        "value": 16,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2",
+          "P3",
+          "P4",
+          "B1"
+        ]
+      },
+      "mobileBoardAndDockGutter": {
+        "value": 12,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2",
+          "B1"
+        ]
+      },
+      "mobileContentWidthAt375": {
+        "value": 343,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2",
+          "P3",
+          "P4",
+          "B1"
+        ]
+      },
+      "mobileWideLayerWidthAt375": {
+        "value": 351,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2",
+          "B1"
+        ]
+      },
+      "calendarTimeLaneInset": {
+        "value": 38,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "calendarStaffColumnGap": {
+        "value": 6,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "calendarPixelsPerHour": {
+        "value": 72,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      }
+    },
+    "spacing": {
+      "observedExamples": {
+        "value": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36
+        ],
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "B1"
+        ],
+        "note": "Representative measured increments across existing components."
+      },
+      "desktopHeroCopyPadding": {
+        "value": 36,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "desktopHeroArtMargin": {
+        "value": 12,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "mobileHeroOuterPadding": {
+        "value": 8,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2"
+        ]
+      },
+      "desktopPastelPadding": {
+        "value": 20,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "mobilePastelPadding": {
+        "value": 16,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2",
+          "P3",
+          "P4",
+          "B1"
+        ]
+      },
+      "desktopTicketPadding": {
+        "value": 24,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "confirmationTicketPadding": {
+        "value": 20,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P3",
+          "P4"
+        ]
+      },
+      "desktopListInset": {
+        "value": 10,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "mobileListInset": {
+        "value": 6,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2"
+        ]
+      },
+      "desktopListRowPadding": {
+        "value": {
+          "block": 14,
+          "inline": 16
+        },
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "mobileListRowPadding": {
+        "value": 12,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2"
+        ]
+      },
+      "desktopListRowGap": {
+        "value": 16,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "mobileListRowGap": {
+        "value": 12,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2"
+        ]
+      },
+      "desktopStageGap": {
+        "value": 24,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "mobileStageGap": {
+        "value": 28,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2"
+        ]
+      },
+      "mobileUtilityCardGap": {
+        "value": 12,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P3",
+          "P4"
+        ]
+      },
+      "durationSegmentGap": {
+        "value": 4,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2",
+          "P3",
+          "P4"
+        ]
+      },
+      "calendarSheetPadding": {
+        "value": {
+          "top": 12,
+          "right": 20,
+          "bottom": 32,
+          "left": 20
+        },
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "calendarPanelGap": {
+        "value": 12,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "mobileBookingScrollTail": {
+        "value": 144,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2"
+        ]
+      },
+      "calendarScrollTail": {
+        "value": 160,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      }
+    },
+    "radius": {
+      "pill": {
+        "value": 9999,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "B1"
+        ]
+      },
+      "desktopHeroAndTicket": {
+        "value": 32,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "mobileHeroAndTicket": {
+        "value": 30,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2",
+          "P3",
+          "P4"
+        ]
+      },
+      "desktopPastelCard": {
+        "value": 28,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "calendarWhiteCard": {
+        "value": 28,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "mobileSummarySheet": {
+        "value": 28,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2"
+        ]
+      },
+      "mobileUtilityCard": {
+        "value": 26,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2",
+          "P3",
+          "P4"
+        ]
+      },
+      "mobileArtAndList": {
+        "value": 24,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2"
+        ]
+      },
+      "timeInset": {
+        "value": 22,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P3",
+          "P4",
+          "B1"
+        ]
+      },
+      "desktopListRow": {
+        "value": 20,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "mobileListRow": {
+        "value": 18,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2"
+        ]
+      },
+      "receiptCodeInset": {
+        "value": 20,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P3",
+          "P4"
+        ]
+      },
+      "offsetUtilitySticker": {
+        "value": 16,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2"
+        ]
+      },
+      "iconTile": {
+        "value": 12,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P3",
+          "P4"
+        ]
+      },
+      "calendarEvent": {
+        "value": 12,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "calendarWeekCell": {
+        "value": 10,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "calendarBreak": {
+        "value": 9,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "calendarSheet": {
+        "value": {
+          "topLeft": 32,
+          "topRight": 32,
+          "bottomLeft": 0,
+          "bottomRight": 0
+        },
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "calendarMonthCell": {
+        "value": 16,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      }
+    },
+    "sizing": {
+      "desktopHeroHeight": {
+        "value": 330,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "desktopArtAt1440": {
+        "value": {
+          "width": 408.39,
+          "height": 306
+        },
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "mobileArtAt375": {
+        "value": {
+          "width": 327,
+          "height": 210
+        },
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2"
+        ]
+      },
+      "heroImageIntrinsic": {
+        "value": {
+          "width": 1600,
+          "height": 1200
+        },
+        "unit": "image px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2"
+        ]
+      },
+      "ratingsSealPreTransform": {
+        "value": {
+          "desktop": 74,
+          "mobile": 62
+        },
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2"
+        ]
+      },
+      "desktopNextSlotHeight": {
+        "value": 52,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "mobileNextSlotHeight": {
+        "value": 44,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2"
+        ]
+      },
+      "desktopServiceRow": {
+        "value": {
+          "width": 666,
+          "height": 68.5
+        },
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1"
+        ]
+      },
+      "mobileServiceRow": {
+        "value": {
+          "width": 331,
+          "height": 82
+        },
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2"
+        ]
+      },
+      "serviceRail": {
+        "value": {
+          "width": 4,
+          "height": 40
+        },
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2"
+        ]
+      },
+      "receiptRail": {
+        "value": {
+          "width": 4,
+          "standardHeight": 36,
+          "mobileDockSheetHeight": 32
+        },
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "B1"
+        ]
+      },
+      "calendarEventRailWidth": {
+        "value": 3,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "profilePortrait": {
+        "value": {
+          "desktop": 90,
+          "mobile": 64,
+          "calendarStaff": 30
+        },
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2",
+          "B1"
+        ]
+      },
+      "profileRingBox": {
+        "value": {
+          "desktop": 118,
+          "mobile": 86,
+          "calendarStaff": 44
+        },
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2",
+          "B1"
+        ]
+      },
+      "profileRingStroke": {
+        "value": {
+          "desktop": 6,
+          "mobile": 7,
+          "calendarStaff": 3.5
+        },
+        "unit": "SVG viewBox units",
+        "evidence": "source-declaration",
+        "screens": [
+          "P1",
+          "P2",
+          "B1"
+        ],
+        "note": "Mobile and calendar SVG strokes scale with the rendered box."
+      },
+      "utilityCircle": {
+        "value": 44,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "B1"
+        ]
+      },
+      "rowToggleDisc": {
+        "value": 36,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2"
+        ]
+      },
+      "checkboxDisc": {
+        "value": 24,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P3",
+          "P4"
+        ]
+      },
+      "reminderSwitch": {
+        "value": {
+          "width": 48,
+          "height": 28,
+          "thumb": 20,
+          "inset": 4
+        },
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P3",
+          "P4"
+        ]
+      },
+      "commitButtonHeight": {
+        "value": {
+          "desktop": 60,
+          "confirmation": 58,
+          "calendarSheet": 56
+        },
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P3",
+          "P4",
+          "B1"
+        ]
+      },
+      "commitButtonIconWell": {
+        "value": 44,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P3",
+          "P4",
+          "B1"
+        ]
+      },
+      "mobileBookingDock": {
+        "value": {
+          "height": 64,
+          "buttonHeight": 48,
+          "bottom": 12
+        },
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2"
+        ]
+      },
+      "calendarBottomNav": {
+        "value": {
+          "height": 60,
+          "activeHeight": 48,
+          "bottom": 12
+        },
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "calendarFloatingAction": {
+        "value": {
+          "diameter": 56,
+          "bottom": 92,
+          "right": 16
+        },
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "sheetGrabHandle": {
+        "value": {
+          "width": 40,
+          "height": 4
+        },
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2",
+          "B1"
+        ]
+      },
+      "calendarSearchBarHeight": {
+        "value": 48,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "calendarDateLoadTrack": {
+        "value": {
+          "width": 24,
+          "height": 6
+        },
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "calendarLegendMark": {
+        "value": 10,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "availTrack": {
+        "value": {
+          "desktop": {
+            "width": 26,
+            "height": 100
+          },
+          "mobile": {
+            "width": 22,
+            "height": 90
+          }
+        },
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2"
+        ]
+      },
+      "durationTrackHeight": {
+        "value": 12,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P3",
+          "P4"
+        ]
+      },
+      "dockSheetDurationTrackHeight": {
+        "value": 10,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2"
+        ]
+      },
+      "countdownTrackHeight": {
+        "value": 10,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P3",
+          "P4"
+        ]
+      },
+      "confirmationMark": {
+        "value": {
+          "orbitBox": 150,
+          "centerDisc": 76
+        },
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P3",
+          "P4"
+        ]
+      },
+      "calendarMonthCell": {
+        "value": {
+          "height": 48,
+          "widthAt375": 44.42,
+          "gap": 4,
+          "loadDotDiameter": 6
+        },
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      }
+    },
+    "borders": {
+      "groupSeparator": {
+        "value": {
+          "width": 1,
+          "style": "solid",
+          "color": "#151515",
+          "alpha": 0.1
+        },
+        "unit": "CSS px for width",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "B1"
+        ]
+      },
+      "denseStaffSeparator": {
+        "value": {
+          "width": 1,
+          "style": "solid",
+          "color": "#151515",
+          "alpha": 0.06
+        },
+        "unit": "CSS px for width",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "ticketPerforation": {
+        "value": {
+          "width": 2,
+          "style": "dashed",
+          "color": "#151515",
+          "alpha": 0.1
+        },
+        "unit": "CSS px for width",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "B1"
+        ]
+      },
+      "receiptEdgeNotch": {
+        "value": {
+          "desktopDiameter": 24,
+          "confirmationDiameter": 24,
+          "mobileDockSheetDiameter": 20
+        },
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2",
+          "P3",
+          "P4"
+        ]
+      },
+      "emptyCheckboxOutline": {
+        "value": {
+          "width": 1,
+          "style": "solid",
+          "color": "#151515",
+          "alpha": 0.15
+        },
+        "unit": "CSS px for width",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P3",
+          "P4"
+        ]
+      },
+      "secondaryOutline": {
+        "value": {
+          "width": 2,
+          "style": "solid",
+          "color": "#151515",
+          "alpha": 0.1
+        },
+        "unit": "CSS px for width",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P3",
+          "P4"
+        ]
+      },
+      "timelineNowLine": {
+        "value": {
+          "width": 2,
+          "anchorDiameter": 10,
+          "whiteKeyline": 2
+        },
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "contourStroke": {
+        "value": {
+          "desktop": 2,
+          "mobile": 1.5
+        },
+        "unit": "SVG viewBox units",
+        "evidence": "source-declaration",
+        "screens": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "B1"
+        ]
+      },
+      "avatarKeyline": {
+        "value": 2,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P3",
+          "P4",
+          "B1"
+        ]
+      }
+    },
+    "opacity": {
+      "mutedInkObserved": {
+        "value": [
+          0.4,
+          0.45,
+          0.5,
+          0.55,
+          0.6,
+          0.7
+        ],
+        "unit": "alpha",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "B1"
+        ]
+      },
+      "inactiveTimeInk": {
+        "value": 0.25,
+        "unit": "alpha",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2"
+        ]
+      },
+      "selectedRowWhite": {
+        "value": 0.8,
+        "unit": "alpha",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2"
+        ]
+      },
+      "photoPickerInactive": {
+        "value": 0.7,
+        "unit": "opacity",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2"
+        ]
+      },
+      "artStickerWhite": {
+        "value": 0.95,
+        "unit": "alpha",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2"
+        ]
+      },
+      "staffHeaderWhite": {
+        "value": 0.95,
+        "unit": "alpha",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "activeDockMetadataWhite": {
+        "value": [
+          0.55,
+          0.6
+        ],
+        "unit": "alpha",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P2"
+        ]
+      },
+      "modalScrimInk": {
+        "value": 0.3,
+        "unit": "alpha",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "secondaryConfirmationServiceAccent": {
+        "value": 0.5,
+        "unit": "alpha",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P3",
+          "P4"
+        ]
+      }
+    },
+    "elevation": {
+      "low": {
+        "value": "0 1px 2px rgba(21,21,21,.04), 0 12px 32px -12px rgba(76,52,120,.18)",
+        "unit": "CSS box-shadow",
+        "evidence": "source-declaration",
+        "screens": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "B1"
+        ],
+        "note": "Also observed on white surfaces."
+      },
+      "floating": {
+        "value": "0 18px 40px -16px rgba(21,21,21,.35)",
+        "unit": "CSS box-shadow",
+        "evidence": "source-declaration",
+        "screens": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "B1"
+        ],
+        "note": "Also observed on floating controls and stickers."
+      },
+      "selectedRow": {
+        "value": "0 1px 2px rgba(0,0,0,.05)",
+        "unit": "CSS box-shadow",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2"
+        ]
+      },
+      "stickyStaffBlur": {
+        "value": 8,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      },
+      "modalScrimBlur": {
+        "value": 2,
+        "unit": "CSS px",
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "B1"
+        ]
+      }
+    },
+    "iconographyAndEffects": {
+      "iconFamily": {
+        "value": "Font Awesome 6.4.0 Free, solid and regular",
+        "evidence": "source-declaration",
+        "screens": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "B1"
+        ],
+        "note": "Custom SVG is also used for brand, contour lines and data rings."
+      },
+      "commonUtilityGlyph": {
+        "value": [
+          10,
+          18
+        ],
+        "unit": "CSS px",
+        "evidence": "visual-estimate",
+        "screens": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "B1"
+        ],
+        "note": "Most small control glyphs use these authored sizes. Individual visible path bounds vary by glyph."
+      },
+      "ratingSealTilt": {
+        "value": 6,
+        "unit": "degrees",
+        "evidence": "source-declaration",
+        "screens": [
+          "P1",
+          "P2"
+        ]
+      },
+      "heroImageFit": {
+        "value": {
+          "fit": "contain",
+          "position": "50% 100%"
+        },
+        "evidence": "computed-css-or-dom",
+        "screens": [
+          "P1",
+          "P2"
+        ]
+      },
+      "orbitDuration": {
+        "value": 24000,
+        "unit": "ms",
+        "evidence": "source-declaration",
+        "screens": [
+          "P3",
+          "P4"
+        ]
+      },
+      "entranceDuration": {
+        "value": 600,
+        "unit": "ms",
+        "evidence": "source-declaration",
+        "screens": [
+          "P3",
+          "P4"
+        ]
+      },
+      "calendarSheetMotion": {
+        "value": {
+          "duration": 320,
+          "easing": "cubic-bezier(.2,.9,.3,1)"
+        },
+        "unit": "ms for duration",
+        "evidence": "source-declaration",
+        "screens": [
+          "B1"
+        ]
+      },
+      "calendarOffHours": {
+        "value": {
+          "angle": 135,
+          "line": 1.5,
+          "repeat": 7,
+          "inkAlpha": 0.06,
+          "base": "#F6F4F9"
+        },
+        "unit": "CSS px for lengths",
+        "evidence": "source-declaration",
+        "screens": [
+          "B1"
+        ]
+      },
+      "calendarBreakPattern": {
+        "value": {
+          "tile": 7,
+          "solidDotRadius": 1,
+          "fadeRadius": 1.3,
+          "inkAlpha": 0.2,
+          "base": "#F1EEF6"
+        },
+        "unit": "CSS px for lengths",
+        "evidence": "source-declaration",
+        "screens": [
+          "B1"
+        ]
+      },
+      "calendarBlockedPattern": {
+        "value": {
+          "angle": 135,
+          "line": 6,
+          "repeat": 12,
+          "whiteAlpha": 0.1,
+          "base": "#151515"
+        },
+        "unit": "CSS px for lengths",
+        "evidence": "source-declaration",
+        "screens": [
+          "B1"
+        ]
+      },
+      "calendarLoadThresholds": {
+        "value": {
+          "lowBelow": 40,
+          "highAtOrAbove": 75
+        },
+        "unit": "percent",
+        "evidence": "source-declaration",
+        "screens": [
+          "B1"
+        ]
+      }
+    },
+    "distribution": {
+      "inkShareOfFullCaptures": {
+        "value": {
+          "P1": 2.83,
+          "P2": 3.45,
+          "P3": 4.36,
+          "P4": 4.35,
+          "B1": 3.99
+        },
+        "unit": "percent",
+        "evidence": "exact-raster-count",
+        "screens": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "B1"
+        ]
+      },
+      "whiteShareOfFullCaptures": {
+        "value": {
+          "P1": 18.96,
+          "P2": 11.64,
+          "P3": 19.97,
+          "P4": 19.97,
+          "B1": 38.72
+        },
+        "unit": "percent",
+        "evidence": "exact-raster-count",
+        "screens": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "B1"
+        ]
+      },
+      "fourPastelFillShareOfFullCaptures": {
+        "value": {
+          "P1": 24.75,
+          "P2": 33.07,
+          "P3": 26.3,
+          "P4": 26.3,
+          "B1": 13.32
+        },
+        "unit": "percent",
+        "evidence": "exact-raster-count",
+        "screens": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "B1"
+        ]
+      }
+    }
+  },
+  "roleMappings": {
+    "selection": {
+      "value": {
+        "foreground": "#FFFFFF",
+        "background": "#151515",
+        "additionalSignals": [
+          "shape",
+          "check",
+          "selection semantics"
+        ]
+      },
+      "evidence": "inferred-for-reuse",
+      "screens": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "B1"
+      ]
+    },
+    "primaryAction": {
+      "value": {
+        "foreground": "#FFFFFF",
+        "background": "#151515",
+        "optionalIconWell": "#FFFFFF"
+      },
+      "evidence": "inferred-for-reuse",
+      "screens": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "B1"
+      ],
+      "note": "An already-ink dock may invert the nested action."
+    },
+    "meaningfulSecondaryTextInkAlpha": {
+      "value": [
+        0.65,
+        0.7
+      ],
+      "unit": "alpha",
+      "evidence": "inferred-for-reuse",
+      "screens": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "B1"
+      ],
+      "note": "Production guidance. Verify the actual pair and text size. Source fine print often uses less."
+    },
+    "meaningfulMobileActionTarget": {
+      "value": 44,
+      "unit": "CSS px minimum preferred",
+      "evidence": "inferred-for-reuse",
+      "screens": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "B1"
+      ],
+      "note": "May enclose a smaller visual glyph or control. Dense grid actions can also be available through a larger equivalent target."
+    },
+    "mobileSectionCadence": {
+      "value": {
+        "withinTextCluster": [
+          2,
+          4
+        ],
+        "inlineControls": [
+          6,
+          12
+        ],
+        "typicalPanelPadding": [
+          16,
+          20
+        ],
+        "betweenTaskSections": [
+          24,
+          28
+        ]
+      },
+      "unit": "CSS px",
+      "evidence": "inferred-for-reuse",
+      "screens": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "B1"
+      ]
+    },
+    "mobileOperatingBoard": {
+      "value": {
+        "base": "#FFFFFF",
+        "accentArea": "repeated status cells and markers",
+        "contrast": "show text or glyph alongside color"
+      },
+      "evidence": "inferred-for-reuse",
+      "screens": [
+        "B1"
+      ]
+    },
+    "illustrativeHero": {
+      "value": {
+        "subjectWidthFraction": [
+          0.45,
+          0.6
+        ]
+      },
+      "unit": "fraction of visible art panel width",
+      "evidence": "visual-estimate",
+      "screens": [
+        "P1",
+        "P2"
+      ],
+      "note": "Approximate apparent subject width. The image element fills the panel and uses contain, while transparent artwork occupies a smaller area."
+    },
+    "reviewFill": {
+      "value": {
+        "desktop": "#E8DCF8",
+        "mobile": "#FBE2CA"
+      },
+      "unit": "sRGB hex",
+      "evidence": "computed-css-or-dom",
+      "screens": [
+        "P1",
+        "P2"
+      ]
+    },
+    "sourceCategoryFills": {
+      "value": {
+        "hair": "#E8DCF8",
+        "nails": "#FBE2CA",
+        "laser": "#CDEFF6",
+        "browsAndLashes": "#DFF3C6"
+      },
+      "unit": "sRGB hex",
+      "evidence": "computed-css-or-dom",
+      "screens": [
+        "P2"
+      ],
+      "note": "Confirmed by switching all four categories in local replay."
+    }
+  }
+}
